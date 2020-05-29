@@ -7,10 +7,6 @@ import org.koin.dsl.module
 import retrofit2.Retrofit
 import retrofit2.converter.moshi.MoshiConverterFactory
 
-/**
- * Created by theapache64 : May 29 Fri,2020 @ 09:37
- * All rights reserved
- */
 val networkModule = module {
 
     // Moshi

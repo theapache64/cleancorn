@@ -7,10 +7,6 @@ import com.theapache64.cleancorn.framework.di.modules.viewModelModule
 import org.koin.android.ext.koin.androidContext
 import org.koin.core.context.startKoin
 
-/**
- * Created by theapache64 : May 29 Fri,2020 @ 10:01
- * All rights reserved
- */
 class App : Application() {
     override fun onCreate() {
         super.onCreate()

@@ -1,9 +1,6 @@
 package com.theapache64.cleancorn.ui.adapters
 
-/**
- * Created by theapache64 : May 29 Fri,2020 @ 10:30
- * All rights reserved
- */
+
 import android.content.Context
 import android.view.LayoutInflater
 import android.view.ViewGroup
