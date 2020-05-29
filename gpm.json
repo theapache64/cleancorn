@@ -1,0 +1,88 @@
+{
+ "added": [
+  {
+   "id": 1,
+   "type": "implementation",
+   "installed_name": "retrofit",
+   "gpm_dep": {
+    "artifact_id": "retrofit",
+    "default_type": "implementation",
+    "docs": "https://mvnrepository.com/artifact/com.squareup.retrofit2/retrofit",
+    "get_from": "Central",
+    "group_id": "com.squareup.retrofit2",
+    "name": "Retrofit",
+    "description": "A type-safe HTTP client for Android and Java."
+   }
+  },
+  {
+   "id": 2,
+   "type": "implementation",
+   "installed_name": "viewmodel-ktx",
+   "gpm_dep": {
+    "artifact_id": "lifecycle-viewmodel-ktx",
+    "default_type": "implementation",
+    "docs": "https://mvnrepository.com/artifact/androidx.lifecycle/lifecycle-viewmodel-ktx",
+    "get_from": "Google",
+    "group_id": "androidx.lifecycle",
+    "name": "Android Lifecycle ViewModel Kotlin Extensions",
+    "description": "Kotlin extensions for 'viewmodel' artifact"
+   }
+  },
+  {
+   "id": 3,
+   "type": "implementation",
+   "installed_name": "livedata-ktx",
+   "gpm_dep": {
+    "artifact_id": "lifecycle-livedata-ktx",
+    "default_type": "implementation",
+    "docs": "https://mvnrepository.com/artifact/androidx.lifecycle/lifecycle-livedata-ktx",
+    "get_from": "Google",
+    "group_id": "androidx.lifecycle",
+    "name": "LiveData Kotlin Extensions",
+    "description": "Kotlin extensions for 'livedata' artifact"
+   }
+  },
+  {
+   "id": 4,
+   "type": "implementation",
+   "installed_name": "coroutines-core",
+   "gpm_dep": {
+    "artifact_id": "kotlinx-coroutines-core",
+    "default_type": "implementation",
+    "docs": "https://mvnrepository.com/artifact/org.jetbrains.kotlinx/kotlinx-coroutines-core",
+    "get_from": "Central",
+    "group_id": "org.jetbrains.kotlinx",
+    "name": "Kotlinx Coroutines Core",
+    "description": "Coroutines support libraries for Kotlin"
+   }
+  },
+  {
+   "id": 5,
+   "type": "implementation",
+   "installed_name": "coroutines-android",
+   "gpm_dep": {
+    "artifact_id": "kotlinx-coroutines-android",
+    "default_type": "implementation",
+    "docs": "https://mvnrepository.com/artifact/org.jetbrains.kotlinx/kotlinx-coroutines-android",
+    "get_from": "Central",
+    "group_id": "org.jetbrains.kotlinx",
+    "name": "Kotlinx Coroutines Android",
+    "description": "Coroutines support libraries for Kotlin"
+   }
+  },
+  {
+   "id": 6,
+   "type": "implementation",
+   "installed_name": "recyclerview",
+   "gpm_dep": {
+    "artifact_id": "recyclerview",
+    "default_type": "implementation",
+    "docs": "https://mvnrepository.com/artifact/androidx.recyclerview/recyclerview",
+    "get_from": "Google",
+    "group_id": "androidx.recyclerview",
+    "name": "Android Support RecyclerView V7",
+    "description": "Android Support RecyclerView v7"
+   }
+  }
+ ]
+}
