@@ -1,4 +1,4 @@
-package com.theapache64.cleancorn.domain
+package com.theapache64.cleancorn.domain.entities
 
 import com.squareup.moshi.Json
 

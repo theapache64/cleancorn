@@ -6,7 +6,7 @@
 
         <variable
             name="movie"
-            type="com.theapache64.cleancorn.domain.Movie" />
+            type="com.theapache64.cleancorn.domain.entities.Movie" />
     </data>
 
     <FrameLayout

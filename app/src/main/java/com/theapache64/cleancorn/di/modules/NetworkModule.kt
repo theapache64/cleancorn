@@ -2,7 +2,7 @@ package com.theapache64.cleancorn.di.modules
 
 import com.squareup.moshi.Moshi
 import com.squareup.moshi.kotlin.reflect.KotlinJsonAdapterFactory
-import com.theapache64.cleancorn.data.ApiInterface
+import com.theapache64.cleancorn.data.MovieApi
 import org.koin.dsl.module
 import retrofit2.Retrofit
 import retrofit2.converter.moshi.MoshiConverterFactory
@@ -16,12 +16,14 @@ val networkModule = module {
             .build()
     }
 
-    // Retrofit
+    // Movie Api
     single {
         Retrofit.Builder()
-            .baseUrl(ApiInterface.TOP_250_BASE_URL)
+            .baseUrl(MovieApi.TOP_250_BASE_URL)
             .addConverterFactory(MoshiConverterFactory.create(get()))
             .build()
-            .create(ApiInterface::class.java)
+            .create(MovieApi::class.java)
     }
+
+
 }

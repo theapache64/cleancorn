@@ -6,10 +6,11 @@ import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import com.theapache64.cleancorn.databinding.ItemMovieBinding
+import com.theapache64.cleancorn.domain.entities.Movie
 
 class MoviesAdapter(
     context: Context,
-    private val movies: List<com.theapache64.cleancorn.domain.Movie>
+    private val movies: List<Movie>
 ) : RecyclerView.Adapter<MoviesAdapter.ViewHolder>() {
 
     private val inflater = LayoutInflater.from(context)

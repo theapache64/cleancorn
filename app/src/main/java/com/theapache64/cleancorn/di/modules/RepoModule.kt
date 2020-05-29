@@ -1,11 +1,19 @@
 package com.theapache64.cleancorn.di.modules
 
-import com.theapache64.cleancorn.data.repo.MoviesRepo
+import com.theapache64.cleancorn.data.repo.MoviesDataRepo
+import com.theapache64.cleancorn.data.source.remote.MoviesRemoteDataSource
+import com.theapache64.cleancorn.domain.repos.MoviesRepo
 import org.koin.dsl.module
 
 
 val repoModule = module {
+
     single {
-        MoviesRepo(get())
+        MoviesRemoteDataSource(get())
     }
+
+    single<MoviesRepo> {
+        MoviesDataRepo(get())
+    }
+
 }
