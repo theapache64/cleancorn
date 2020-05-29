@@ -1,4 +1,4 @@
-package com.theapache64.cleancorn.ui.adapters
+package com.theapache64.cleancorn.adapters
 
 
 import android.content.Context

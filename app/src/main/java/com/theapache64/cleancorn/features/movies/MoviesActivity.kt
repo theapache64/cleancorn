@@ -1,22 +1,22 @@
-package com.theapache64.cleancorn.ui.main
+package com.theapache64.cleancorn.features.movies
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import androidx.databinding.DataBindingUtil
 import androidx.lifecycle.Observer
 import com.theapache64.cleancorn.R
-import com.theapache64.cleancorn.databinding.ActivityMainBinding
-import com.theapache64.cleancorn.ui.adapters.MoviesAdapter
+import com.theapache64.cleancorn.adapters.MoviesAdapter
+import com.theapache64.cleancorn.databinding.ActivityMoviesBinding
 import org.koin.android.viewmodel.ext.android.viewModel
 
-class MainActivity : AppCompatActivity() {
+class MoviesActivity : AppCompatActivity() {
 
-    private val mainViewModel: MainViewModel by viewModel()
+    private val mainViewModel: MoviesViewModel by viewModel()
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         val binding =
-            DataBindingUtil.setContentView<ActivityMainBinding>(this, R.layout.activity_main)
+            DataBindingUtil.setContentView<ActivityMoviesBinding>(this, R.layout.activity_movies)
 
         mainViewModel.movies.observe(this, Observer { movies ->
             val adapter = MoviesAdapter(this, movies)

@@ -7,13 +7,13 @@
 
         <variable
             name="viewModel"
-            type="com.theapache64.cleancorn.ui.main.MainViewModel" />
+            type="com.theapache64.cleancorn.features.movies.MoviesViewModel" />
     </data>
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        tools:context=".ui.main.MainActivity">
+        tools:context=".features.movies.MoviesActivity">
 
         <androidx.recyclerview.widget.RecyclerView
             android:id="@+id/rv_movies"
