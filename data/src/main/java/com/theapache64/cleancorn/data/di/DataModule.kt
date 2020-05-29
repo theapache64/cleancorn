@@ -1,4 +1,4 @@
-package com.theapache64.cleancorn.di.modules
+package com.theapache64.cleancorn.data.di
 
 import com.theapache64.cleancorn.data.repo.MoviesDataRepo
 import com.theapache64.cleancorn.data.source.remote.MoviesRemoteDataSource

@@ -4,7 +4,7 @@ import com.theapache64.cleancorn.domain.entities.Movie
 import retrofit2.http.GET
 
 
-interface MovieApi {
+interface MoviesApi {
 
     companion object {
         const val TOP_250_BASE_URL = "https://raw.githubusercontent.com/theapache64/top250/master/"

@@ -7,6 +7,10 @@ dependencies {
 
     implementation project(':domain')
     implementation 'com.squareup.retrofit2:retrofit:2.9.0'
+    implementation 'com.squareup.retrofit2:converter-moshi:2.9.0'
+
+    // Koin
+    implementation "org.koin:koin-core:2.1.5"
 }
 
 sourceCompatibility = "1.7"
