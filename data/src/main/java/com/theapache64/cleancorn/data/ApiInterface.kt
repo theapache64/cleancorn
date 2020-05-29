@@ -1,13 +1,11 @@
-package com.theapache64.cleancorn.data.remote
+package com.theapache64.cleancorn.data
 
-import com.theapache64.cleancorn.data.remote.top250.Movie
-import retrofit2.Response
+import com.theapache64.cleancorn.domain.Movie
 import retrofit2.http.GET
 
 /**
  * Created by theapache64 : May 29 Fri,2020 @ 09:20
- * Copyright (c) 2020 ThinkPalm
- * All rights reserved
+* All rights reserved
  */
 interface ApiInterface {
 

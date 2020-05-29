@@ -2,19 +2,17 @@ package com.theapache64.cleancorn.ui.adapters
 
 /**
  * Created by theapache64 : May 29 Fri,2020 @ 10:30
- * Copyright (c) 2020 ThinkPalm
  * All rights reserved
  */
 import android.content.Context
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
-import com.theapache64.cleancorn.data.remote.top250.Movie
 import com.theapache64.cleancorn.databinding.ItemMovieBinding
 
 class MoviesAdapter(
     context: Context,
-    private val movies: List<Movie>
+    private val movies: List<com.theapache64.cleancorn.domain.Movie>
 ) : RecyclerView.Adapter<MoviesAdapter.ViewHolder>() {
 
     private val inflater = LayoutInflater.from(context)

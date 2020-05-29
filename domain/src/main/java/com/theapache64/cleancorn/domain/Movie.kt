@@ -1,12 +1,11 @@
-package com.theapache64.cleancorn.data.remote.top250
+package com.theapache64.cleancorn.domain
 
 import com.squareup.moshi.Json
 
 
 /**
  * Created by theapache64 : May 29 Fri,2020 @ 10:10
- * Copyright (c) 2020 ThinkPalm
- * All rights reserved
+* All rights reserved
  */
 data class Movie(
     @Json(name = "name")
