@@ -1,4 +1,4 @@
-package com.theapache64.cleancorn.framework.di.modules
+package com.theapache64.cleancorn.di.modules
 
 import com.squareup.moshi.Moshi
 import com.squareup.moshi.kotlin.reflect.KotlinJsonAdapterFactory

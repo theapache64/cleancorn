@@ -1,4 +1,4 @@
-package com.theapache64.cleancorn.framework.di.modules
+package com.theapache64.cleancorn.di.modules
 
 import com.theapache64.cleancorn.data.repo.MoviesRepo
 import org.koin.dsl.module
